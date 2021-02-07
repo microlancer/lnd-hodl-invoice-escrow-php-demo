@@ -3,6 +3,8 @@
 
 This is a set of PHP scripts that demonstrates the use of Hold (or Hodl) Invoices in the process of escrow. It allows for a 3rd party to help mediate the transaction, while not being able to steal and run away with the funds during the transaction.
 
+For background and reference, see: https://wiki.ion.radar.tech/tech/research/hodl-invoice
+
 ## Install
 
 1. Copy `config.php-example` to `config.php` and edit the values.
