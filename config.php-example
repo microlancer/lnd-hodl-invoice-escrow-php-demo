@@ -1,0 +1,9 @@
+<?php
+
+namespace LnEscrow;
+
+class Config {
+	const CERT_PATH = '/root/.lnd/tls.cert';
+	const MACAROON_PATH = '/root/.lnd/data/chain/bitcoin/mainnet/admin.macaroon';
+	const HOST = '127.0.0.1:10009';
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "lnpay/php-lnd-grpc": "^0.7.1"
+    }
+}
