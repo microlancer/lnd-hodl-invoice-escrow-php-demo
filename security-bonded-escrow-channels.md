@@ -34,7 +34,7 @@ Alice wants to buy a book for 15,000 sats from Carol.
 1. Alice pays Carol 15,000 sats directly. 
 1. Carol receives the payment, and ships the book.
 1. Alice receives the book.
-1. Bob never receives P of Alice since everything went smoothly. He simply cancels the private bonded HTLC with Carol.
+1. Bob never receives P of Alice since everything went smoothly. He simply cancels the insurance HTLC with Carol.
 
 **Case 2: Dispute**
 
