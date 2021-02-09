@@ -58,7 +58,7 @@ Alice wants to buy a book for 15,000 sats from Carol.
 
 In all scenarios, Bob acts as a "Bonded Escrow Node" acting as an intermediary for lightning transactions. The only requirement is for the payment receivers to create the security bond private channels.
 
-## Key attributes
+## Key Attributes
 
 - Because the security bond channels are private, the HTLCs can remain "in limbo" for quite some time without disrupting the LN network as a whole. Public routing paths are unaffected.
 - The actual transaction (lightning payment for the merchandise) from Alice to Carol is settled immediately. This public invoice does NOT remain "in limbo" at all.
