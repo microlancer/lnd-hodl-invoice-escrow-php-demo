@@ -25,7 +25,7 @@ Alice wants to buy a book for 15,000 sats from Carol.
 1. Carol creates 1m sats private channel with Bob. This can be recycled for many future receipts.
 1. Alice tells Bob that she plans to pay Carol 15,000 sats for merchandise.
 1. Bob asks Alice to generate a preimage P and H(P), and sends Bob the H(P).
-1. Carol creates an LN transaction between her and Bob on their channel for 15,000 sats using a very long-term Hold invoice. This is created using H(P) of Alice. Bob can only take custody of these funds if Alice permits it by revealing P to Bob.
+1. Bob creates an insurance policy invoice paid through the private channel that Carol must pay. It will be for 15,000 sats using a very long-term **Hold** invoice. This is created using H(P) of Alice. Bob can only take custody of these funds if Alice permits it by revealing P to Bob.
 1. Carol can verify that she is not simply paying Bob directly by comparing the H(P) associated to the invoice with the H(P) that Alice announced.
 
 **Case 1: Successful transaction**
