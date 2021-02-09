@@ -68,6 +68,7 @@ In all scenarios, Bob acts as a "Bonded Escrow Node" acting as an intermediary f
 - It's always in the best interest of Alice and Carol to resolve their dispute together and not involve Bob, since once the H(P) is revealed to Bob, he can send the money fully or partially to anyone or himself at his own discretion.
 - Bob can charge a fee for this escrow service.
 - One downside is the receiver of funds must have some liquidity to pay for the bonded channel in advance of receiving payment.
+- No protocol changes in Lightning required. This proposal uses all existing technology.
 
 ## Improvements/Questions
 
