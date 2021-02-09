@@ -10,7 +10,7 @@ One Lightning-based solution is to create a type of HTLC-based escrow can be cre
 
 ## The Proposed Solution
 
-We propose a special **private** lightning channel, let us call it the "security bond channel" between a payment recipient (e.g. Carol the merchant) that will act as an insurance policy to protect the customer in case of long-term failure-to-deliver. 
+We propose a special **private** lightning channel, let us call it the "security bond channel" between a payment recipient (e.g. Carol the merchant) and escrow (Bob) that will act as an insurance policy to protect the customer in case of long-term failure-to-deliver. 
 
 These special channels act as a security bond which are used to ensure that the escrowed transactions between Alice and Carol are financially secure. In case of a breech-of-contract during a transaction, the funds in this private channel will be used to penalize any bad actors. These private channels are not used for generalized routing or even for common payments. They are used only in the worst-case scenario of a transaction dispute.
 
