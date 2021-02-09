@@ -52,8 +52,8 @@ Alice wants to buy a book for 15,000 sats from Carol.
 1. Carol seems to be unresponsive even after 2 weeks.
 1. Alice asks Bob for help to recover the funds.
 1. Carol tries to be sneaky and begins a force-close on the private channel.
-1. The channel cannot be closed until the HTLC is resolved.
-1. Alice gives Bob her preimage as in Case 2, and receives the funds before the channel is closed.
+1. The channel cannot be closed until the insurance payment HTLC is resolved.
+1. Alice gives Bob her preimage as in Case 2, and Bob can settle the insurance invoice before the channel is closed.
 1. Bob reimburses Alice the 15,0000 sats in good faith.
 
 In all scenarios, Bob acts as a "Bonded Escrow Node" acting as an intermediary for lightning transactions. The only requirement is for the payment receivers to create the security bond private channels.
