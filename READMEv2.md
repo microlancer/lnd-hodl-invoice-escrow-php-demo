@@ -1,4 +1,6 @@
-Lightning Trustless Escrow v2
+# Lightning Trustless Escrow v2
+
+The original version of HODL-invoice escrow has a key problem where the HTLC remains suspended over potentially several routing nodes and is not ideal for long-term holds. An escrow transaction can last days or even months. To solve this problem, we can set up a private channel between the merchant and the arbitration node. The funds in this channel will be suspended during a HODL-invoice but only affects the private channel.
 
 Bob is an arbitrator node. He agrees to arbitrate the transaction between Alice and Charlie. Since Charlie will be receiving the funds from Alice, Charlie will first set up a security deposit private channel with Bob. This can be any amount at least as big as the transaction, but can be much larger in case there may be additional transactions in the future.
 
